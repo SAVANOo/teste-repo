@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid 1px black;
+}
+
+.header-container {
+  color: #fff;
+  background-color: #ff8100;  /* Channel Orange */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+}
+
+.teste{
+  margin-left: 20px;
+}
+
+.menu-container {
+  color: #ff8100;
+  background-color: #e5f7f5;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.menu {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+  height: 100%;
+  z-index: 0;
+  position: relative;
+}
